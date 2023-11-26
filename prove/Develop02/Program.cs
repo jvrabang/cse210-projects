@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 
-class Program1
+class Program
 {
     static void Main()
     {
