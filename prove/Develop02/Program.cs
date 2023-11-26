@@ -1,3 +1,5 @@
+//Exceeded the requirements by adding an additional prompt of asking the user of its emotional state.
+
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -26,7 +28,7 @@ class Program
                     Console.WriteLine($"Prompt: {randomPrompt}");
                     Console.WriteLine("Enter your response to the prompt:");
                     string response = Console.ReadLine();
-                    Console.WriteLine("Enter your mood or emotional state:");
+                    Console.WriteLine("Enter your mood or emotional state:"); //Exceeded the requirements by adding an additional prompt of asking the user of its emotional state.
                     string mood = Console.ReadLine();
                     string date = DateTime.Now.ToShortDateString();
                     journal.AddEntry(randomPrompt, response, date, mood);
@@ -91,3 +93,5 @@ class Program
         return prompts[index];
     }
 }
+
+//Exceeded the requirements by adding an additional prompt of asking the user of its emotional state.
