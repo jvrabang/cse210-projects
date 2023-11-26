@@ -21,6 +21,6 @@ class Entry
         Console.WriteLine($"Prompt: {Prompt}");
         Console.WriteLine($"Response: {Response}");
         Console.WriteLine($"Mood: {Mood}");
-        Console.WriteLine("-------------------------------");
+        Console.WriteLine("---------------------------");
     }
 }

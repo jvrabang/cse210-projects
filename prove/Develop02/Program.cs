@@ -26,7 +26,7 @@ class Program
                 case "1":
                     string randomPrompt = GetRandomPrompt();
                     Console.WriteLine($"Prompt: {randomPrompt}");
-                    Console.WriteLine("Enter your response to the prompt:");
+                    Console.WriteLine("Enter your response:");
                     string response = Console.ReadLine();
                     Console.WriteLine("Enter your mood or emotional state:"); //Exceeded the requirements by adding an additional prompt of asking the user of its emotional state.
                     string mood = Console.ReadLine();
@@ -49,7 +49,7 @@ class Program
                     Console.Write("Enter the filename to load: ");
                     string loadFilename = Console.ReadLine();
                     journal.LoadFromFile(loadFilename);
-                    Console.WriteLine("Journal loaded successfully.");
+                    Console.WriteLine("Journal is loaded successfully.");
                     break;
 
                 case "5":
@@ -57,7 +57,7 @@ class Program
                     break;
 
                 default:
-                    Console.WriteLine("Invalid choice. Please try again.");
+                    Console.WriteLine("Incorrect choice. Please choose from 1 to 5.");
                     break;
             }
         }
