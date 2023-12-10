@@ -16,7 +16,7 @@ public class Cycling : Activity
 
     public override double GetPace()
     {
-        return 60 / _speed; // Invert speed to get pace
+        return 60 / _speed;
     }
 
     public override string GetSummary()

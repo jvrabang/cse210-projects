@@ -13,17 +13,17 @@ public class Activity
 
     public virtual double GetDistance()
     {
-        return 0; // Default implementation for activities without specific distance calculation
+        return 0; 
     }
 
     public virtual double GetSpeed()
     {
-        return 0; // Default implementation for activities without specific speed calculation
+        return 0;
     }
 
     public virtual double GetPace()
     {
-        return 0; // Default implementation for activities without specific pace calculation
+        return 0;
     }
 
     public virtual string GetSummary()
