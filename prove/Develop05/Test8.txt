@@ -1,0 +1,4 @@
+TotalScore:13
+SimpleGoal:TestSG1,TestSG1Desc,1,True
+EternalGoal:TestEG1,TestEG1Desc,2,False
+ChecklistGoal:TestCG1,TestCG1Desc,3,4,122,3,True

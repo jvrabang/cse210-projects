@@ -1,0 +1,7 @@
+TotalScore:57
+SimpleGoal:TestSG1,TestSG1Desc,50
+SimpleGoal:TestSG2,TestSG2Desc,55
+EternalGoal:TestEG1,TestEG2Desc,1
+EternalGoal:TestEG2,TestEG2Desc2,2
+ChecklistGoal:TestCG1,TestCG1Desc,2,3,21,2
+ChecklistGoal:TestCG2,TesgCG2Desc,43,1,299,0
